@@ -1,0 +1,20 @@
+# Starting a New Project
+
+Usually  don't really need to make a whole virtualenv, but it's a good idea to update packages and save the dependencies at the beginning.
+
+pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U
+pip freeze > project_requirements.txt
+Stash requirements as documentation. 
+
+New project template with imports & functions.
+
+Data Collection
+As you start, ave the urls of any pages you get data from.
+-matplotlib 
+
+
+aws ssh shortcuts
+
+
+
+

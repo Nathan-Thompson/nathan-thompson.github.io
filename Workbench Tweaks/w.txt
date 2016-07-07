@@ -1,0 +1,50 @@
+
+
+
+Terminal customization
+
+I've been using the 'novel theme.' To set a theme hit  ⌘, and change the theme selected under 'On startup open' on the General tab.
+
+
+open .bash_profile
+
+alias update='git pull upstream master'
+alias jp='jupyter notebook'
+
+alias svr='python -m SimpleHTTPServer'
+
+# current project folder
+alias proj='cd ~/desktop/PROJECT_FOLDER
+
+jupyter customization 
+
+#Run this in a notebook cell
+import IPython.html 
+print IPython.html.DEFAULT_STATIC_FILES_PATH
+
+Mine was:
+/Users/username/.virtualenvs/project_name/lib/python2.7/site-packages/notebook/static
+
+
+Jupyter themes
+space legos
+https://github.com/dunovank/jupyter-themes
+
+Start a New Project
+
+Usually you don't really need to make a whole virtualenv, but it's a good idea to update packages and save the dependencies at the beginning.
+
+pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U
+pip freeze > project_requirements.txt
+Stash this requirements as documentation. 
+
+New project template with imports & functions.
+
+
+
+
+
+
+
+
+

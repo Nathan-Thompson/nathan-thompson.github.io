@@ -1,0 +1,57 @@
+
+I wanted to , and 
+
+Terminal
+
+I've been using the 'novel theme.' To set a theme hit  ⌘ + , and change the theme selected under 'On startup open' on the General tab.
+
+## Bash Profile Shortcuts
+
+In the console:
+open .bash_profile
+
+alias update='git pull upstream master'
+alias jp='jupyter notebook'
+alias svr='python -m SimpleHTTPServer'
+# optional for a current project folder
+alias proj='cd ~/desktop/PROJECT_FOLDER
+
+Jupyter (IPython Notebook) Customization 
+
+#Run this in a notebook cell
+import IPython.html 
+print IPython.html.DEFAULT_STATIC_FILES_PATH
+
+Open this directory and open the 'custom.js' file in the 'custom folder'. Paste this, save and close: 
+
+IPython.Cell.options_default.cm_config.lineNumbers = true;
+IPython.Cell.options_default.cm_config.lineWrapping = true;
+
+
+Mine was:
+/Users/username/.virtualenvs/project_name/lib/python2.7/site-packages/notebook/static
+
+Jupyter themes
+space legos
+https://github.com/dunovank/jupyter-themes
+
+Sublime Text
+
+
+Being able to hit Cmd + B to run a script at any time. Build systems asre 
+
+You have to set up the right build system under
+
+If you're using virtual environments or Anaconda find the 
+
+
+Python with virtualenv
+Javascript
+ {
+ "cmd": ["node", "$file"],
+ "selector": "source.js"
+ }
+
+Rodeo
+I've been watching Rodeo develop for awhile now--it takes after RStudio. RStudio is a fantastic,free IDE for R and probably the single tool I  most since converting to python. Right now Rodeo is nowhere near as feature-rich as Rstudio, but it's shown improvement over the past year .
+
